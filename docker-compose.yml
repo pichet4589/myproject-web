@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+
+  media-service-web:
+    container_name: media-service-web
+    image: media-service-web:latest
+    ports:
+      - '3031:80'
+    restart: always
